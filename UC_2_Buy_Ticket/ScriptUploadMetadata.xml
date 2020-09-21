@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VugenScriptMetadata>
+  <ScriptName>Vugen_script_2</ScriptName>
+  <Protocol>Web - HTTP/HTML</Protocol>
+  <ActionFiles>
+    <FileEntry Name="vuser_init.c" Filter="2" />
+    <FileEntry Name="Action.c" Filter="2" />
+    <FileEntry Name="vuser_end.c" Filter="2" />
+  </ActionFiles>
+  <GeneralFiles>
+    <FileEntry Name="Vugen_script_2.usr" Filter="4" />
+    <FileEntry Name="default.cfg" Filter="4" />
+    <FileEntry Name="default.usp" Filter="4" />
+    <FileEntry Name="Vugen_script_2.prm" Filter="2" />
+    <FileEntry Name="globals.h" Filter="2" />
+    <FileEntry Name="Watches.xml" Filter="2" />
+    <FileEntry Name="combined_Vugen_script_2.c" Filter="2" />
+    <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name="109155739440.idx" Filter="1" />
+    <FileEntry Name="155519085440.idx" Filter="1" />
+    <FileEntry Name="236813997440.idx" Filter="1" />
+    <FileEntry Name="245424436440.idx" Filter="1" />
+    <FileEntry Name="24542443644_IVI.755.idx" Filter="1" />
+    <FileEntry Name="24542443644_OlK.737.idx" Filter="1" />
+    <FileEntry Name="24542443644_sMd.437.idx" Filter="1" />
+    <FileEntry Name="24542443644_VI8.95.idx" Filter="1" />
+    <FileEntry Name="252668381440.idx" Filter="1" />
+    <FileEntry Name="47141347440.idx" Filter="1" />
+    <FileEntry Name="57565281440.idx" Filter="1" />
+    <FileEntry Name="62060072440.idx" Filter="1" />
+    <FileEntry Name="Bookmarks.xml" Filter="1" />
+    <FileEntry Name="Breakpoints.xml" Filter="1" />
+    <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
+    <FileEntry Name="creditCard.dat" Filter="1" />
+    <FileEntry Name="data.zip" Filter="1" />
+    <FileEntry Name="expDate.dat" Filter="1" />
+    <FileEntry Name="logfile.log" Filter="1" />
+    <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv_cmd.txt" Filter="1" />
+    <FileEntry Name="NewParam.dat" Filter="1" />
+    <FileEntry Name="options.txt" Filter="1" />
+    <FileEntry Name="output.bak" Filter="1" />
+    <FileEntry Name="output.txt" Filter="1" />
+    <FileEntry Name="OutputColoringDatabase.json" Filter="1" />
+    <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
+    <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
+    <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
+    <FileEntry Name="TransactionsData.db" Filter="1" />
+    <FileEntry Name="UserTasks.xml" Filter="1" />
+    <FileEntry Name="Vugen_script_2.c.pickle" Filter="1" />
+    <FileEntry Name="Vugen_script_2.ci" Filter="1" />
+    <FileEntry Name="Vugen_script_2.prm.bak" Filter="1" />
+    <FileEntry Name="result1\" Filter="1" />
+  </GeneralFiles>
+</VugenScriptMetadata>

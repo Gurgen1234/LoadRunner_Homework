@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\edika\OneDrive\ƒокументы\VuGen\Scripts\UC_5_Buy_But_No_Veiw_Itinersry
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\edika\onedrive\документы\vugen\scripts\uc_5_buy_but_no_veiw_itinersry\\logfile.log
+c:\users\edika\onedrive\документы\vugen\scripts\uc_5_buy_but_no_veiw_itinersry\\combined_Vugen_script_5.c
+c:\users\edika\onedrive\документы\vugen\scripts\uc_5_buy_but_no_veiw_itinersry\\pre_cci.c
