@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--IC:\Users\edika\OneDrive\ƒокументы\VuGen\Scripts\UC_3_Delete
+-IC:\Users\edika\OneDrive\–абочий стол\LoadRunner\UC_3_Delete
 -IC:\Program Files (x86)\Micro Focus\LoadRunner\include
--ec:\users\edika\onedrive\документы\vugen\scripts\uc_3_delete\\logfile.log
-c:\users\edika\onedrive\документы\vugen\scripts\uc_3_delete\\combined_Vugen_script_3.c
-c:\users\edika\onedrive\документы\vugen\scripts\uc_3_delete\\pre_cci.c
+-ec:\users\edika\onedrive\рабочий стол\loadrunner\uc_3_delete\\logfile.log
+c:\users\edika\onedrive\рабочий стол\loadrunner\uc_3_delete\\combined_Vugen_script_3.c
+c:\users\edika\onedrive\рабочий стол\loadrunner\uc_3_delete\\pre_cci.c

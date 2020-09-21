@@ -34,11 +34,11 @@
     <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
     <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
     <FileEntry Name="TransactionsData.db" Filter="1" />
+    <FileEntry Name="user.dat" Filter="1" />
     <FileEntry Name="UserTasks.xml" Filter="1" />
     <FileEntry Name="Vugen_script_3.c.pickle" Filter="1" />
     <FileEntry Name="Vugen_script_3.ci" Filter="1" />
     <FileEntry Name="Vugen_script_3.prm.bak" Filter="1" />
-    <FileEntry Name="data\" Filter="1" />
     <FileEntry Name="result1\" Filter="1" />
   </GeneralFiles>
 </VugenScriptMetadata>

@@ -108,9 +108,6 @@ RuleName ='userSession'*/
 
 	lr_think_time(5);
 	
-	
-
-
 		web_reg_save_param("fligh_id",
 		"LB=name=\"flightID\" value=\"",
 		"RB=\"",

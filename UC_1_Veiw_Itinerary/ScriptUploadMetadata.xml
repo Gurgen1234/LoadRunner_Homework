@@ -14,6 +14,7 @@
     <FileEntry Name="VuGen_script_1.prm" Filter="2" />
     <FileEntry Name="globals.h" Filter="2" />
     <FileEntry Name="ScriptVcsSettings.xml" Filter="2" />
+    <FileEntry Name="user.dat" Filter="2" />
     <FileEntry Name="combined_VuGen_script_1.c" Filter="2" />
     <FileEntry Name="pre_cci.c" Filter="2" />
     <FileEntry Name=".gitignore" Filter="1" />
@@ -49,14 +50,11 @@
     <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
     <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
     <FileEntry Name="TransactionsData.db" Filter="1" />
-    <FileEntry Name="user.dat" Filter="1" />
     <FileEntry Name="UserTasks.xml" Filter="1" />
     <FileEntry Name="VuGen_script_1.c.pickle" Filter="1" />
     <FileEntry Name="VuGen_script_1.ci" Filter="1" />
     <FileEntry Name="VuGen_script_1.prm.bak" Filter="1" />
     <FileEntry Name="VuGen_script_1.sdf" Filter="1" />
-    <FileEntry Name=".git\" Filter="1" />
-    <FileEntry Name="data\" Filter="1" />
     <FileEntry Name="result1\" Filter="1" />
   </GeneralFiles>
 </VugenScriptMetadata>

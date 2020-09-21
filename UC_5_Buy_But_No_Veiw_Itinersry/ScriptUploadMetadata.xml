@@ -13,17 +13,27 @@
     <FileEntry Name="default.usp" Filter="4" />
     <FileEntry Name="Vugen_script_5.prm" Filter="2" />
     <FileEntry Name="globals.h" Filter="2" />
+    <FileEntry Name="creditCard.dat" Filter="2" />
+    <FileEntry Name="depart.dat" Filter="2" />
+    <FileEntry Name="seatPref.dat" Filter="2" />
+    <FileEntry Name="seatType.dat" Filter="2" />
+    <FileEntry Name="user.dat" Filter="2" />
     <FileEntry Name="combined_Vugen_script_5.c" Filter="2" />
     <FileEntry Name="pre_cci.c" Filter="2" />
     <FileEntry Name="126597160440.idx" Filter="1" />
+    <FileEntry Name="181647877440.idx" Filter="1" />
     <FileEntry Name="183392763440.idx" Filter="1" />
     <FileEntry Name="20252101440.idx" Filter="1" />
+    <FileEntry Name="212693535440.idx" Filter="1" />
     <FileEntry Name="233627332440.idx" Filter="1" />
     <FileEntry Name="241263740440.idx" Filter="1" />
     <FileEntry Name="245424436440.idx" Filter="1" />
     <FileEntry Name="252668381440.idx" Filter="1" />
+    <FileEntry Name="263713972440.idx" Filter="1" />
+    <FileEntry Name="26985225440.idx" Filter="1" />
     <FileEntry Name="47141347440.idx" Filter="1" />
     <FileEntry Name="57565281440.idx" Filter="1" />
+    <FileEntry Name="58089026440.idx" Filter="1" />
     <FileEntry Name="62060072440.idx" Filter="1" />
     <FileEntry Name="arriwe.dat" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
@@ -34,11 +44,6 @@
     <FileEntry Name="lrw_custom_body.h" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
-    <FileEntry Name="NewParam(1).dat" Filter="1" />
-    <FileEntry Name="NewParam(2).dat" Filter="1" />
-    <FileEntry Name="NewParam.dat" Filter="1" />
-    <FileEntry Name="NewParam_1.dat" Filter="1" />
-    <FileEntry Name="NewParam_2.dat" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />
     <FileEntry Name="output.bak" Filter="1" />
     <FileEntry Name="output.txt" Filter="1" />
