@@ -1,0 +1,37 @@
+[
+    {
+        "transactionName": "goToSite",
+        "rawStartTime": 1600817999903,
+        "rawEndTime": 1600818000443
+    },
+    {
+        "transactionName": "login",
+        "rawStartTime": 1600818000459,
+        "rawEndTime": 1600818006149
+    },
+    {
+        "transactionName": "click_flights",
+        "rawStartTime": 1600818006165,
+        "rawEndTime": 1600818011525
+    },
+    {
+        "transactionName": "click_find_flight",
+        "rawStartTime": 1600818011557,
+        "rawEndTime": 1600818016838
+    },
+    {
+        "transactionName": "choose_flight",
+        "rawStartTime": 1600818021884,
+        "rawEndTime": 1600818022040
+    },
+    {
+        "transactionName": "click_sigin_off",
+        "rawStartTime": 1600818022056,
+        "rawEndTime": 1600818032380
+    },
+    {
+        "transactionName": "UC_4_View",
+        "rawStartTime": 1600817999886,
+        "rawEndTime": 1600818032397
+    }
+]

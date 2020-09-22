@@ -56,10 +56,12 @@
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
     <FileEntry Name="mdrvftl.123.log" Filter="1" />
+    <FileEntry Name="mdrvLaU.165.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="NewParam.dat" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />
     <FileEntry Name="output.bak" Filter="1" />
+    <FileEntry Name="output.txt" Filter="1" />
     <FileEntry Name="OutputColoringDatabase.json" Filter="1" />
     <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
     <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
@@ -69,6 +71,7 @@
     <FileEntry Name="Vugen_script_2.c.pickle" Filter="1" />
     <FileEntry Name="Vugen_script_2.ci" Filter="1" />
     <FileEntry Name="Vugen_script_2.prm.bak" Filter="1" />
+    <FileEntry Name="Vugen_script_2.sdf" Filter="1" />
     <FileEntry Name="result1\" Filter="1" />
   </GeneralFiles>
 </VugenScriptMetadata>

@@ -1,0 +1,32 @@
+[
+    {
+        "transactionName": "goToSite",
+        "rawStartTime": 1600817791692,
+        "rawEndTime": 1600817792792
+    },
+    {
+        "transactionName": "login",
+        "rawStartTime": 1600817792808,
+        "rawEndTime": 1600817798284
+    },
+    {
+        "transactionName": "click_itinenary",
+        "rawStartTime": 1600817798300,
+        "rawEndTime": 1600817803778
+    },
+    {
+        "transactionName": "click_cancel",
+        "rawStartTime": 1600817803795,
+        "rawEndTime": 1600817809389
+    },
+    {
+        "transactionName": "click_sigin_off",
+        "rawStartTime": 1600817809405,
+        "rawEndTime": 1600817815046
+    },
+    {
+        "transactionName": "UC_3_Delete",
+        "rawStartTime": 1600817791676,
+        "rawEndTime": 1600817815062
+    }
+]

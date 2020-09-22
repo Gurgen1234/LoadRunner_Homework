@@ -3,7 +3,7 @@ Action()
 	int flight_id_num = 0;
 
 
-	web_set_sockets_option("SSL_VERSION", "AUTO");
+	web_set_sockets_option("SSL_VERSION", "TLS1.2");
 	
 	lr_start_transaction("UC_3_Delete");
 	
@@ -27,21 +27,11 @@ Action()
 	 web_reg_find("Fail=NotFound",
 		"Text=A Session ID has been created",
 		LAST);
-
-/*Correlation comment: Automatic rules - Do not change!  
-Original value='129650.199189955zzziiicpVcAiDDDDtAAVDpcQcHcf' 
-Name ='userSession' 
-Type ='Rule' 
-AppName ='WebTours' 
-RuleName ='userSession'*/
-	web_reg_save_param_attrib(
-		"ParamName=userSession",
-		"TagName=input",
-		"Extract=value",
-		"Name=userSession",
-		"Type=hidden",
-		SEARCH_FILTERS,
-		"RequestUrl=*/nav.pl*",
+	
+	web_reg_save_param("userSession",
+		"LB=name=\"userSession\" value=\"",
+		"RB=\"/>",
+		"NotFound=ERROR",
 		LAST);
 
 	web_url("WebTours", 
@@ -108,7 +98,7 @@ RuleName ='userSession'*/
 
 	lr_think_time(5);
 	
-		web_reg_save_param("fligh_id",
+		web_reg_save_param("flights_id",
 		"LB=name=\"flightID\" value=\"",
 		"RB=\"",
 		"Ord=ALL",
@@ -155,7 +145,7 @@ RuleName ='userSession'*/
 		"Referer=http://localhost:1080/cgi-bin/itinerary.pl", ENDITEM,
 		LAST);
 	
-	if(atoi(lr_eval_string("{flights_numbers}")) < flight_id_num)
+	if(atoi(lr_eval_string("{flights_numbers}")) > flight_id_num)
 	{
 		lr_error_message("itinerary not delete");
 	} else {

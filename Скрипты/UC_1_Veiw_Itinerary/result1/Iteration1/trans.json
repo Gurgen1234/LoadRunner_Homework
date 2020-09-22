@@ -1,0 +1,27 @@
+[
+    {
+        "transactionName": "goToSite",
+        "rawStartTime": 1600815697327,
+        "rawEndTime": 1600815701019
+    },
+    {
+        "transactionName": "login",
+        "rawStartTime": 1600815701035,
+        "rawEndTime": 1600815704974
+    },
+    {
+        "transactionName": "click_itinenary",
+        "rawStartTime": 1600815704990,
+        "rawEndTime": 1600815708671
+    },
+    {
+        "transactionName": "logout",
+        "rawStartTime": 1600815708687,
+        "rawEndTime": 1600815712284
+    },
+    {
+        "transactionName": "UC_1_Veiw_Itinerary",
+        "rawStartTime": 1600815697311,
+        "rawEndTime": 1600815712300
+    }
+]

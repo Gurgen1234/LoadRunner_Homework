@@ -1,3 +1,0 @@
-"advanceDiscount=0&depart=Denver&departDate=09%2F22%2F2020&arrive=Frankfurt&returnDate=22.09.20"
-"20+19%3A17%3A27&numPassengers=1&seatPref=Window&seatType=First&findFlights.x=65&findFlights.y="
-"11&.cgifields=roundtrip&.cgifields=seatType&.cgifields=seatPref"

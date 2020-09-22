@@ -1,0 +1,2 @@
+"userSession=129673.373187525zzHAAHtpVDDDDDDDtAAcApttti&username=jojo&password=bean&login.x=50&"
+"login.y=15&JSFormSubmit=off"

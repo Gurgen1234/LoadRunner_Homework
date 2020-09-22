@@ -2,8 +2,7 @@ Action()
 {
 	
 
-
-	web_set_sockets_option("SSL_VERSION", "AUTO");
+	web_set_sockets_option("SSL_VERSION", "TLS1.2");
 	 
 	
 	lr_start_transaction("UC_4_View");
@@ -28,24 +27,14 @@ Action()
 	web_add_auto_header("Upgrade-Insecure-Requests", 
 		"1");
 
- web_reg_find("Fail=NotFound",
+ 	web_reg_find("Fail=NotFound",
 		"Text=A Session ID has been created",
 		LAST);
  
-/*Correlation comment: Automatic rules - Do not change!  
-Original value='129644.337140543zzzifiApfQVzzzzHtAAVVptiDff' 
-Name ='userSession' 
-Type ='Rule' 
-AppName ='WebTours' 
-RuleName ='userSession'*/
-	web_reg_save_param_attrib(
-		"ParamName=userSession",
-		"TagName=input",
-		"Extract=value",
-		"Name=userSession",
-		"Type=hidden",
-		SEARCH_FILTERS,
-		"RequestUrl=*/nav.pl*",
+	web_reg_save_param("userSession",
+		"LB=name=\"userSession\" value=\"",
+		"RB=\"/>",
+		"NotFound=ERROR",
 		LAST);
 
 	web_url("WebTours", 
@@ -133,19 +122,10 @@ RuleName ='userSession'*/
 
 	lr_think_time(5);
 
-/*Correlation comment: Automatic rules - Do not change!  
-Original value='020;635;09/13/2020' 
-Name ='outboundFlight' 
-Type ='Rule' 
-AppName ='WebTours' 
-RuleName ='outboundFlight'*/
-	web_reg_save_param_attrib(
-		"ParamName=outboundFlight",
-		"TagName=input",
-		"Extract=value",
-		"Name=outboundFlight",
-//		"Ordinal=ALL",
-		"Type=radio",
+	web_reg_save_param("outboundFlight",
+		"LB=name=\"outboundFlight\" value=\"",
+		"RB=\">",
+//		"Ord=ALL",
 		LAST);
 
 	web_reg_save_param("flight_id",
