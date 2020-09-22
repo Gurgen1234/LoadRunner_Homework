@@ -1,0 +1,4 @@
+Error: C:\Users\edika\OneDrive\Документы\VuGen\Scripts\Parametrs\user.dat : No such file or directory 	[MsgId: MERR-13874]
+Error: Table 'C:\Users\edika\OneDrive\Документы\VuGen\Scripts\Parametrs\user.dat' cannot be opened. Error code is '-2'.	[MsgId: MERR-13880]
+Warning: Extension parameng.dll reports error -2 on call to function ExtPerProcessInitialize	[MsgId: MWAR-10485]
+Error: Thread Context: Call to service of the driver failed, reason - thread context wasn't initialized on this thread.	[MsgId: MERR-10176]

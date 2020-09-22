@@ -1,0 +1,4 @@
+Error: missing newline in C:\Users\edika\OneDrive\Рабочий стол\LoadRunner\Скрипты\UC_2_Buy_Ticket\creditCard.dat	[MsgId: MERR-13874]
+Error: C:\Users\edika\OneDrive\Документы\VuGen\Scripts\Parametrs\creditCard.dat : No such file or directory 	[MsgId: MERR-13874]
+Error: Exception was raised when calling per-process-init function in extension parameng.dll: System Exceptions: EXCEPTION_ACCESS_VIOLATION	[MsgId: MERR-10492]
+Error: Thread Context: Call to service of the driver failed, reason - thread context wasn't initialized on this thread.	[MsgId: MERR-10176]
