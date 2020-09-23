@@ -1,0 +1,42 @@
+﻿[ErrorsDataSupervisor_BasicInfo]
+NumFilters=2
+
+[AdditionalFilter0]
+DimensionType=Discrete
+InternalDimName=Event Name
+Dimension=Transaction Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=9
+UseEscapeSequence=1
+DimCount=9
+Dim_0=choose_flight
+Dim_1=click_cancel
+Dim_2=click_find_flight
+Dim_3=click_flights
+Dim_4=click_itinenary
+Dim_5=click_sigin_off
+Dim_6=fill_payment_details
+Dim_7=goToSite
+Dim_8=login
+LikeMode=0
+
+[AdditionalFilter1]
+DimensionType=Continuous
+InternalDimName=End Time
+Dimension=Scenario Elapsed Time
+EqualFlag=1
+DimensionTableName=Event_meter
+NumValues=1
+DimCount=2
+Dim_0=60.000000
+Dim_1=1260.000000
+
+[DimensionFunctions]
+DimeFuncCount=1
+DimeFuncType0=FuncFragment
+FunctionName_UI0=Think Time
+DimensionName_UI0=Transaction Response Time,Aminimum,Amaximum
+FunctionFragmentValues_UI0=-Include Think Time
+DimensionFragmentValues_UI0=!([Value]-[Think Time])!
+

@@ -1,3 +1,14 @@
-Just In Time Log mode.
-Log messages will be sent only when an error occurs.
-To change this behavior, look at the Log tab in Run Time Settings.
+Start auto log messages stack - Iteration 9.
+Action.c(219):     Last-Modified: Thu, 17 Sep 2020 21:10:30 GMT\r\n
+Action.c(219):     ETag: "1000000040dca-326-5af88d06e950a"\r\n
+Action.c(219):     Accept-Ranges: bytes\r\n
+Action.c(219):     Content-Length: 806\r\n
+Action.c(219):     Keep-Alive: timeout=5, max=94\r\n
+Action.c(219):     Connection: Keep-Alive\r\n
+Action.c(219):     Content-Type: image/gif\r\n
+Action.c(219):     \r\n
+Action.c(219): t=28472ms: 806-byte response body for "http://localhost:1080/WebTours/images/bookanother.gif" (RelFrameId=, Internal ID=258)
+Action.c(219): t=28474ms: Request done "http://localhost:1080/WebTours/images/bookanother.gif"  	[MsgId: MMSG-26000]
+Action.c(219): Error -26366: "Text=8am : Flight 00 leaves Denver  for Zuirch" not found for web_reg_find  	[MsgId: MERR-26366]
+End auto log messages stack.
+

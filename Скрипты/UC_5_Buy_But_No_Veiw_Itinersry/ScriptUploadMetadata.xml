@@ -40,6 +40,8 @@
     <FileEntry Name="58089026440.idx" Filter="1" />
     <FileEntry Name="62060072440.idx" Filter="1" />
     <FileEntry Name="65189500440.idx" Filter="1" />
+    <FileEntry Name="6518950044_9tE.199.idx" Filter="1" />
+    <FileEntry Name="6518950044_tpM.25.idx" Filter="1" />
     <FileEntry Name="arriwe.dat" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
@@ -48,11 +50,15 @@
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="lrw_custom_body.h" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv4ng.233.log" Filter="1" />
+    <FileEntry Name="mdrvBWD.43.log" Filter="1" />
     <FileEntry Name="mdrvdO3.105.log" Filter="1" />
+    <FileEntry Name="mdrvxXq.715.log" Filter="1" />
     <FileEntry Name="mdrvYAw.309.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />
     <FileEntry Name="output.bak" Filter="1" />
+    <FileEntry Name="output.txt" Filter="1" />
     <FileEntry Name="OutputColoringDatabase.json" Filter="1" />
     <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
     <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />

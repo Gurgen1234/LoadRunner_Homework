@@ -7,7 +7,6 @@ Denver,Portland
 Denver,San Francisco
 Denver,Seattle
 Denver,Sydney
-Denver,Zuirch
 Frankfurt,Denver
 Frankfurt,London
 Frankfurt,Los Angeles
@@ -16,7 +15,6 @@ Frankfurt,Portland
 Frankfurt,San Francisco
 Frankfurt,Seattle
 Frankfurt,Sydney
-Frankfurt,Zuirch
 London,Denver
 London,Frankfurt
 London,Los Angeles
@@ -25,7 +23,6 @@ London,Portland
 London,San Francisco
 London,Seattle
 London,Sydney
-London,Zuirch
 Los Angeles,Denver
 Los Angeles,Frankfurt
 Los Angeles,London
@@ -34,7 +31,6 @@ Los Angeles,Portland
 Los Angeles,San Francisco
 Los Angeles,Seattle
 Los Angeles,Sydney
-Los Angeles,Zuirch
 Paris,Denver
 Paris,Frankfurt
 Paris,London
@@ -43,7 +39,6 @@ Paris,Portland
 Paris,San Francisco
 Paris,Seattle
 Paris,Sydney
-Paris,Zuirch
 Portland,Denver
 Portland,Frankfurt
 Portland,London
@@ -52,7 +47,6 @@ Portland,Paris
 Portland,San Francisco
 Portland,Seattle
 Portland,Sydney
-Portland,Zuirch
 San Francisco,Denver
 San Francisco,Frankfurt
 San Francisco,London
@@ -61,7 +55,6 @@ San Francisco,Paris
 San Francisco,Portland
 San Francisco,Seattle
 San Francisco,Sydney
-San Francisco,Zuirch
 Seattle,Denver
 Seattle,Frankfurt
 Seattle,London
@@ -70,7 +63,6 @@ Seattle,Paris
 Seattle,Portland
 Seattle,San Francisco
 Seattle,Sydney
-Seattle,Zuirch
 Sydney,Denver
 Sydney,Frankfurt
 Sydney,London
@@ -79,13 +71,3 @@ Sydney,Paris
 Sydney,Portland
 Sydney,San Francisco
 Sydney,Seattle
-Sydney,Zuirch
-Zuirch,Denver
-Zuirch,Frankfurt
-Zuirch,London
-Zuirch,Los Angeles
-Zuirch,Paris
-Zuirch,Portland
-Zuirch,San Francisco
-Zuirch,Seattle
-Zuirch,Sydney

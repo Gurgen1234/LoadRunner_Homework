@@ -55,8 +55,11 @@
     <FileEntry Name="expDate.dat" Filter="1" />
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrvFnb.537.log" Filter="1" />
     <FileEntry Name="mdrvftl.123.log" Filter="1" />
+    <FileEntry Name="mdrvGpk.867.log" Filter="1" />
     <FileEntry Name="mdrvLaU.165.log" Filter="1" />
+    <FileEntry Name="mdrvyab.515.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="NewParam.dat" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />

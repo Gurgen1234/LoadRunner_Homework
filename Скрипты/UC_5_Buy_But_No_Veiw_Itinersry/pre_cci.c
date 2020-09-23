@@ -2765,14 +2765,86 @@ Action()
 		"LAST");
 
 	lr_end_transaction("click_find_flight",2);
-
 	
+
+		lr_think_time(5);
+
+	lr_start_transaction("choose_flight");
+	
+	web_submit_data("reservations.pl_2",
+		"Action=http://localhost:1080/cgi-bin/reservations.pl",
+		"Method=POST",
+		"TargetFrame=",
+		"RecContentType=text/html",
+		"Referer=http://localhost:1080/cgi-bin/reservations.pl",
+		"Snapshot=t5.inf",
+		"Mode=HTML",
+		"ITEMDATA",
+		"Name=outboundFlight", "Value={outboundFlight}", "ENDITEM",
+		"Name=numPassengers", "Value=1", "ENDITEM",
+		"Name=advanceDiscount", "Value=0", "ENDITEM",
+		"Name=seatType", "Value={seatType}", "ENDITEM",
+		"Name=seatPref", "Value={seatPref}", "ENDITEM",
+		"Name=reserveFlights.x", "Value=50", "ENDITEM",
+		"Name=reserveFlights.y", "Value=13", "ENDITEM",
+		"LAST");
+
+	lr_end_transaction("choose_flight",2);
+
+	lr_start_transaction("fill_payment_details");
+
+	(web_remove_auto_header("Origin", "ImplicitGen=Yes", "LAST"));
+
+	(web_remove_auto_header("Sec-Fetch-User", "ImplicitGen=Yes", "LAST"));
+
+	(web_remove_auto_header("Upgrade-Insecure-Requests", "ImplicitGen=Yes", "LAST"));
+
+	web_add_header("Origin", 
+		"http://localhost:1080");
+
+	lr_think_time(5);
+	
+ 
+ 
+ 
+    web_reg_find("Fail=NotFound",
+		"Text={flight_time}m : Flight {flight_id} leaves {depart}  for {arrive}",
+		"LAST");
+    
+	web_submit_data("reservations.pl_3",
+		"Action=http://localhost:1080/cgi-bin/reservations.pl",
+		"Method=POST",
+		"TargetFrame=",
+		"RecContentType=text/html",
+		"Referer=http://localhost:1080/cgi-bin/reservations.pl",
+		"Snapshot=t6.inf",
+		"Mode=HTML",
+		"ITEMDATA",
+		"Name=firstName", "Value=Jojo", "ENDITEM",
+		"Name=lastName", "Value=Bean", "ENDITEM",
+		"Name=address1", "Value=Moscow", "ENDITEM",
+		"Name=address2", "Value=123456", "ENDITEM",
+		"Name=pass1", "Value=Jojo Bean", "ENDITEM",
+		"Name=creditCard", "Value={creditCard}", "ENDITEM",
+		"Name=expDate", "Value={expDate}", "ENDITEM",
+		"Name=oldCCOption", "Value=", "ENDITEM",
+		"Name=numPassengers", "Value=1", "ENDITEM",
+		"Name=seatType", "Value={seatType}", "ENDITEM",
+		"Name=seatPref", "Value={seatPref}", "ENDITEM",
+		"Name=outboundFlight", "Value={outboundFlight}", "ENDITEM",
+		"Name=advanceDiscount", "Value=0", "ENDITEM",
+		"Name=returnFlight", "Value=", "ENDITEM",
+		"Name=JSFormSubmit", "Value=off", "ENDITEM",
+		"Name=buyFlights.x", "Value=41", "ENDITEM",
+		"Name=buyFlights.y", "Value=8", "ENDITEM",
+		"Name=.cgifields", "Value=saveCC", "ENDITEM",
+		"LAST");
+
+	lr_end_transaction("fill_payment_details",2);
 
 	lr_start_transaction("click_sigin_off");
 
 	(web_remove_auto_header("Sec-Fetch-User", "ImplicitGen=Yes", "LAST"));
-
-	lr_think_time(5);
 
 	web_add_header("Sec-Fetch-User", 
 		"?1");

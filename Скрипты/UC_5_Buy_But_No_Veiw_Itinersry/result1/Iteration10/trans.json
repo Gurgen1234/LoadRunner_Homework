@@ -1,0 +1,42 @@
+[
+    {
+        "transactionName": "goToSite",
+        "rawStartTime": 1600883261116,
+        "rawEndTime": 1600883261617
+    },
+    {
+        "transactionName": "login",
+        "rawStartTime": 1600883261633,
+        "rawEndTime": 1600883262127
+    },
+    {
+        "transactionName": "click_flights",
+        "rawStartTime": 1600883262142,
+        "rawEndTime": 1600883262492
+    },
+    {
+        "transactionName": "click_find_flight",
+        "rawStartTime": 1600883262508,
+        "rawEndTime": 1600883262793
+    },
+    {
+        "transactionName": "choose_flight",
+        "rawStartTime": 1600883262824,
+        "rawEndTime": 1600883263121
+    },
+    {
+        "transactionName": "fill_payment_details",
+        "rawStartTime": 1600883263137,
+        "rawEndTime": 1600883263485
+    },
+    {
+        "transactionName": "click_sigin_off",
+        "rawStartTime": 1600883263502,
+        "rawEndTime": 1600883263850
+    },
+    {
+        "transactionName": "UC_5_Buy_But_No_Veiw_Itinersry",
+        "rawStartTime": 1600883261100,
+        "rawEndTime": 1600883263866
+    }
+]

@@ -1,0 +1,44 @@
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Action.c(21): web_add_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+Action.c(21): web_add_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+Action.c(24): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+Action.c(24): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+Action.c(27): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(27): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(31): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(31): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(37): web_url("WebTours") started  	[MsgId: MMSG-26355]
+Action.c(37): Error -27792: Failed to connect to server "localhost:1080": [10061] Connection refused  	[MsgId: MERR-27792]
+Action.c(37): Error -26366: "Text=A Session ID has been created" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(37): Error -26377: No match found for the requested parameter "userSession". Either the specified boundaries were not found in the response or the matched text is longer than current max html parameter size of 256 bytes. The total length of the response is 0 bytes. You can use "web_set_max_html_param_len" to increase the max parameter size.  	[MsgId: MERR-26377]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Action.c(37): Notify: Saving Parameter "userSession = ".	[MsgId: MMSG-13798]
+Action.c(37): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+Action.c(21): web_add_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+Action.c(21): web_add_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+Action.c(24): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+Action.c(24): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+Action.c(27): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(27): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(31): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(31): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(37): web_url("WebTours") started  	[MsgId: MMSG-26355]
+Action.c(37): Error -27792: Failed to connect to server "localhost:1080": [10061] Connection refused  	[MsgId: MERR-27792]
+Action.c(37): Error -26366: "Text=A Session ID has been created" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(37): Error -26377: No match found for the requested parameter "userSession". Either the specified boundaries were not found in the response or the matched text is longer than current max html parameter size of 256 bytes. The total length of the response is 0 bytes. You can use "web_set_max_html_param_len" to increase the max parameter size.  	[MsgId: MERR-26377]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+Action.c(37): Notify: Saving Parameter "userSession = ".	[MsgId: MMSG-13798]
+Action.c(37): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

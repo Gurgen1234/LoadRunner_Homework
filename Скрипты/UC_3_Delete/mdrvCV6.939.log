@@ -1,0 +1,30 @@
+Start auto log messages stack - Iteration 14.	[MsgId: MMSG-10545]
+Action.c(138):     </center>\n
+Action.c(138):     \n
+Action.c(138):     </body>\n
+Action.c(138):     </html>
+Action.c(138): t=631866ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=, Internal ID=389)
+Action.c(138):     0\r\n
+Action.c(138):     \r\n
+Action.c(138): Warning -26373: Parameter "flights_numbers" saved from a resource (URL="http://localhost:1080/cgi-bin/itinerary.pl")  	[MsgId: MWAR-26373]
+Action.c(138): web_submit_form("web_submit_form") highest severity level was "warning", 52151 body bytes, 512 header bytes, 119 chunking overhead bytes  	[MsgId: MMSG-26387]
+Action.c(148): Notify: Parameter Substitution: parameter "flights_numbers" =  " 42 "	[MsgId: MMSG-13992]
+Action.c(150): Error: itinerary not delete	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 25.	[MsgId: MMSG-10545]
+Action.c(138):     </center>\n
+Action.c(138):     \n
+Action.c(138):     </body>\n
+Action.c(138):     </html>
+Action.c(138): t=1148964ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=, Internal ID=697)
+Action.c(138):     0\r\n
+Action.c(138):     \r\n
+Action.c(138): Warning -26373: Parameter "flights_numbers" saved from a resource (URL="http://localhost:1080/cgi-bin/itinerary.pl")  	[MsgId: MWAR-26373]
+Action.c(138): web_submit_form("web_submit_form") highest severity level was "warning", 46298 body bytes, 512 header bytes, 111 chunking overhead bytes  	[MsgId: MMSG-26387]
+Action.c(148): Notify: Parameter Substitution: parameter "flights_numbers" =  " 37 "	[MsgId: MMSG-13992]
+Action.c(150): Error: itinerary not delete	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

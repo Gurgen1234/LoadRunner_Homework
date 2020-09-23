@@ -113,7 +113,7 @@ Action()
 
 	lr_end_transaction("click_itinenary",LR_AUTO);
 
-	lr_start_transaction("logout");
+	lr_start_transaction("click_sigin_off");
 
 	
 	web_add_header("Sec-Fetch-User", 
@@ -133,7 +133,7 @@ Action()
 		"Mode=HTML", 
 		LAST);
 	
-lr_end_transaction("logout", LR_AUTO);
+lr_end_transaction("click_sigin_off", LR_AUTO);
 
 lr_end_transaction("UC_1_Veiw_Itinerary", LR_AUTO);
 

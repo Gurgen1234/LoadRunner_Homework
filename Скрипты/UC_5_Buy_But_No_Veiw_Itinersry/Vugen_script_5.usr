@@ -52,9 +52,9 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="UC_5_Buy_But_No_Veiw_Itinersry__*delimiter*__goToSite__*delimiter*__login__*delimiter*__click_flights__*delimiter*__click_find_flight__*delimiter*__click_sigin_off"
+Order="UC_5_Buy_But_No_Veiw_Itinersry__*delimiter*__goToSite__*delimiter*__login__*delimiter*__click_flights__*delimiter*__click_find_flight__*delimiter*__click_sigin_off__*delimiter*__choose_flight__*delimiter*__fill_payment_details"
 [StateManagement]
-LastReplayStatus=1
+LastReplayStatus=2
 [ActiveReplay]
 LastReplayedRunName=result1
 ActiveRunName=result1
@@ -65,3 +65,5 @@ login=
 click_flights=
 click_find_flight=
 click_sigin_off=
+choose_flight=
+fill_payment_details=

@@ -5,16 +5,16 @@
         <Subsections />
         <Entries>
           <Entry key="ElapsedTime">
-            <double>16.302</double>
+            <double>13.2805196</double>
           </Entry>
           <Entry key="StartedAt">
-            <dateTime>2020-09-23T02:01:36.2547351+03:00</dateTime>
+            <dateTime>2020-09-23T20:07:47.9052423+03:00</dateTime>
           </Entry>
           <Entry key="EndedAt">
-            <dateTime>2020-09-23T02:01:52.5563613+03:00</dateTime>
+            <dateTime>2020-09-23T20:08:01.1857619+03:00</dateTime>
           </Entry>
           <Entry key="ReplayStatus">
-            <LastReplayRunStatus>Passed</LastReplayRunStatus>
+            <LastReplayRunStatus>Aborted</LastReplayRunStatus>
           </Entry>
           <Entry key="NumberOfReplayErrors">
             <int>0</int>

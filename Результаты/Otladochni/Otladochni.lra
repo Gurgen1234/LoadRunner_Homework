@@ -1,0 +1,102 @@
+﻿[Workspace]
+SessionStartTime=0
+SessionEndTime=1450
+VerNo=13
+IsSummaryData=0
+TimeFormat=0
+SesLang=RUS
+ABuild=0
+DataBaseName=resl224878864DB
+DBType=1
+CurrServer=DESKTOP-7BAHJNG
+CurrUser=sa
+CurrPswd===
+StorageLoc=\\DESKTOP-7BAHJNG\Data\
+PhStorageLoc=C:\MSSQL7\Data
+LocStorageLoc=
+LocPhStorageLoc=
+WinIntSec=0
+UseNetworkMode=0
+UseParallel=1
+UseManagedIndexes=1
+UseSpecMSSQLParams=1
+NumResults=1
+
+[Data Config]
+CollectionMode=2
+IngnoreFlds=Vuser ID
+IngnoreUIFlds=VuserID
+AggSecGran=1
+TransAgg=1
+DataPointAgg=1
+WebAgg=1
+MonAgg=0
+ErrAgg=0
+FilterEdge=0
+FSartTime=0
+FEndTime=0
+
+[Result0]
+LRRID=
+ResultPath=C:\Users\edika\AppData\Local\Temp\res\res.lrr
+ResultTDPath=
+NumFilters=2
+ScenarioTimeZone=-10800
+DaylightSavingSecsAddition=0
+ScenarioStartTime=1600893115
+ScenarioEndTime=1600894565
+ResInSD=0
+WebGran=5
+FilterEdge=0
+FSartTime=0
+FEndTime=0
+TDTestID=-1
+TDRunID=-1
+IsProTuneResult=0
+GraphScale=0
+Scenario Type=Manual
+Schedule Name=Schedule 1
+Mode=Scenario Scheduling
+Load Behavior=Initialize all Vusers simultaneously
+Scenario Duration=Start 9 Vusers: 1 every 00:00:01 (HH:MM:SS); Run for 00:22:00 (HH:MM:SS); Stop all Vusers simultaneously
+NumGraphs=5
+
+[Result0_GLOBALFILTER0]
+DimensionType=Discrete
+InternalDimName=Event Name
+Dimension=Transaction Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=9
+UseEscapeSequence=1
+DimCount=9
+Dim_0=choose_flight
+Dim_1=click_cancel
+Dim_2=click_find_flight
+Dim_3=click_flights
+Dim_4=click_itinenary
+Dim_5=click_sigin_off
+Dim_6=fill_payment_details
+Dim_7=goToSite
+Dim_8=login
+LikeMode=0
+
+[Result0_GLOBALFILTER1]
+DimensionType=Continuous
+InternalDimName=End Time
+Dimension=Scenario Elapsed Time
+EqualFlag=1
+DimensionTableName=Event_meter
+NumValues=1
+DimCount=2
+Dim_0=60.000000
+Dim_1=1260.000000
+
+[DimensionFunctions]
+DimeFuncCount=1
+DimeFuncType0=FuncFragment
+FunctionName_UI0=Think Time
+DimensionName_UI0=Transaction Response Time,Aminimum,Amaximum
+FunctionFragmentValues_UI0=-Include Think Time
+DimensionFragmentValues_UI0=!([Value]-[Think Time])!
+

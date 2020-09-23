@@ -1,0 +1,3 @@
+"outboundFlight=060%3B379%3B09%2F23%2F2020%22+checked%3D%22checked%22+%3EBlue+Sky+Air+060%3Ctd+"
+"align%3D%22center&numPassengers=1&advanceDiscount=0&seatType=Value&seatPref=None&reserveFlight"
+"s.x=50&reserveFlights.y=13"

@@ -33,6 +33,8 @@ Action()
 		"RB=\"/>",
 		"NotFound=ERROR",
 		LAST);
+	
+	
 
 	web_url("WebTours", 
 		"URL=http://localhost:1080/WebTours", 
@@ -147,7 +149,9 @@ Action()
 	
 	if(atoi(lr_eval_string("{flights_numbers}")) > flight_id_num)
 	{
-		lr_error_message("itinerary not delete");
+		
+		lr_fail_trans_with_error("itinerary not delete");
+
 	} else {
 		lr_output_message("itinerary delete");
 	}
